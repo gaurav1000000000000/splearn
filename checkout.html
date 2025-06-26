@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <title>Scholar - About Us</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-scholar.css" />
+  <link rel="stylesheet" href="assets/css/owl.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    body {
+      padding-top: 100px;
+    }
+
+    .header-area {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+      background: rgba(108, 99, 255, 0.9); /* Dark purple */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-area .main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 20px;
+    }
+
+    .header-area .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      text-transform: uppercase;
+      margin-right: 20px;
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+      padding-right: 20px;
+    }
+
+    .search-input {
+      display: flex;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 5px 15px;
+      border-radius: 25px;
+      margin-right: auto;
+      margin-left: 20px;
+    }
+
+    .search-input input {
+      background: transparent;
+      border: none;
+      color: white;
+      outline: none;
+      padding: 5px;
+      width: 150px;
+    }
+
+    .search-input i {
+      color: white;
+      margin-left: 10px;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+    }
+
+    .nav li {
+      margin-left: 20px;
+    }
+
+    .nav a {
+      color: white;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .nav a.active,
+    .nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #fff;
+    }
+
+    .menu-trigger {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- Logo -->
+            <a href="index.html" class="logo">SCHOLAR</a>
+
+            <!-- Search Bar -->
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Type Something" id="searchText" name="searchKeyword" />
+                <i class="fa fa-search"></i>
+              </form>
+            </div>
+
+            <!-- Menu -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html">Home</a></li>
+              <li class="scroll-to-section"><a href="services.html">Services</a></li>
+              <li class="scroll-to-section"><a href="about.html" class="active">About Us</a></li>
+              <li class="scroll-to-section"><a href="contact us.html">Contact Us!</a></li>
+            </ul>
+            <a class="menu-trigger"><span>Menu</span></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Hero Section -->
+
+  <title>Apex - Home</title>
+  <style>
+      body {
+          background: #f8f9fa;
+          font-family: 'Inter', sans-serif;
+      }
+
+      .checkout-card {
+          max-width: 600px;
+          margin: 50px auto;
+          background: #ffffff;
+          border-radius: 15px;
+          padding: 30px;
+          box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      }
+
+      .checkout-card h2 {
+          font-weight: 600;
+      }
+
+      .form-select {
+          height: 50px;
+          font-size: 16px;
+      }
+
+      .payment-options .btn {
+          display: block;
+          width: 100%;
+          padding: 15px;
+          font-size: 16px;
+          margin-bottom: 15px;
+          border: none;
+          border-radius: 10px;
+          transition: all 0.3s ease-in-out;
+      }
+
+      .btn:hover {
+          transform: translateY(-2px);
+          opacity: 0.9;
+      }
+
+      .btn-dark {
+          background-color: #4285F4;
+      }
+
+      .btn-success {
+          background-color: #672AB6;
+      }
+
+      .btn-info {
+          background-color: #002970;
+      }
+
+      .btn i {
+          margin-right: 8px;
+      }
+
+      footer {
+          margin-top: 40px;
+          text-align: center;
+          font-size: 14px;
+          color: #666;
+      }
+  </style>
+</head>
+
+<body>
+  <div class="checkout-card">
+      <h2 class="text-center text-primary mb-4">Checkout</h2>
+
+      <!-- Course Selection -->
+      <div class="mb-5">
+         <label for="courseSelect" class="form-label" style="font-size: 20px;">
+Select Services:
+</label>
+
+          <select id="courseSelect" class="form-select" onchange="updatePrice()">
+              <option value="web-design-details" data-price="1200">Web Design ₹1200</option>
+              <option value="web-dev-details" data-price="1500">Web-Development - ₹1500</option>
+              <option value="ADBMS" data-price="1700">ADBMS - ₹1700</option>
+              <option value="Python" data-price="25000">Python Developer - ₹1400</option>
+              <option value="BlockChain" data-price="2500">BlockChain Developer - ₹2500</option>
+              <option value="web-technology" data-price="1800">Web-Technology - ₹1800</option>
+              <!-- <option value="influencing_marketing" data-price="40000">Influence_Marketing- ₹40000</option>
+              <option value="affiliate_marketing" data-price="40000">Affiliate_Marketing - ₹40000</option>
+              <option value="mobile_marketing" data-price="40000">Mobile_Marketing - ₹40000</option>
+              <option value="vedio_marketing" data-price="40000">Vedio_Marketing- ₹40000</option>
+              <option value="online_reputation_management" data-price="40000">Online_Reputation_Management - ₹40000</option>
+              <option value="marketing_automation" data-price="40000">Marketing_Automation - ₹40000</option> -->
+          </select>
+      </div> 
+
+      <!-- Payment Options -->
+      <div class="payment-options">
+          <h4 class="text-secondary text-center mb-3">Select a Payment Method:</h4>
+
+          <a class="btn btn-dark" href="#" onclick="makePayment('Google Pay'); return false;">
+              <i class="bi bi-google"></i> Pay with Google Pay
+          </a>
+          <a class="btn btn-success" href="#" onclick="makePayment('PhonePe'); return false;">
+              <i class="bi bi-phone"></i> Pay with PhonePe
+          </a>
+          <a class="btn btn-info text-white" href="#" onclick="makePayment('Paytm'); return false;">
+              <i class="bi bi-wallet2"></i> Pay with Paytm
+          </a>
+      </div>
+  </div>
+
+  
+
+  <!-- JavaScript -->
+  <script>
+      let selectedPrice = 30000; // default
+
+      function updatePrice() {
+          const select = document.getElementById('courseSelect');
+          selectedPrice = parseFloat(select.options[select.selectedIndex].getAttribute('data-price'));
+      }
+
+      function makePayment(method) {
+          const course = document.getElementById('courseSelect').value;
+          const amount = selectedPrice;
+
+          if (amount <= 0) {
+              alert('Please select a valid course with a price.');
+              return;
+          }
+
+          let paymentUrl = '';
+          const merchantId = "omkarnathdubey127-2@okhdfcbank";
+          const merchantName = "ACAMUS UTILITY";
+          const transactionId = 'TXN' + Date.now();
+
+          switch (method) {
+              case 'Google Pay':
+                  paymentUrl = `gpay://upi/pay?pa=${merchantId}&pn=${merchantName}&tr=${transactionId}&am=${amount}&cu=INR`;
+                  break;
+              case 'PhonePe':
+                  paymentUrl = `phonepe://pay?pa=${merchantId}&pn=${merchantName}&tr=${transactionId}&am=${amount}&cu=INR`;
+                  break;
+              case 'Paytm':
+                  paymentUrl = `paytmmp://pay?pa=${merchantId}&pn=${merchantName}&tr=${transactionId}&am=${amount}&cu=INR`;
+                  break;
+              default:
+                  alert('Payment method not supported.');
+                  return;
+          }
+
+          window.location.href = paymentUrl;
+
+          setTimeout(() => {
+              alert(`If ${method} app didn't open, please ensure it is installed and try again. Amount: ₹${amount}`);
+          }, 1000);
+      }
+  </script>
+  
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2036 Scholar Organization. All rights reserved.
+          &nbsp;&nbsp;&nbsp; Design: <a href="https://templatemo.com" rel="nofollow" target="_blank">TemplateMo</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
